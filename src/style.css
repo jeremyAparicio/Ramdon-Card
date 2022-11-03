@@ -1,1 +1,47 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.card-content {
+  display: inline-grid;
+  background-color: #fff;
+  position: relative;
+  margin: 5%;
+  width: 30%;
+  height: 500px;
+  border-radius: 3%;
+  box-shadow: rgba(0, 0, 0, 0.3) 3px 4px 4px 0px;
+  z-index: 9;
+  background: rgb(255, 255, 255);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(187, 187, 187);
+}
+
+.card-values {
+  padding: 48%;
+}
+
+.type {
+  position: absolute;
+}
+
+span.type:nth-child(1) {
+  top: 0%;
+  left: 10%;
+  font-size: 100px;
+}
+
+span.type:nth-child(3) {
+  top: 66%;
+  right: 10%;
+  font-size: 100px;
+  transform: rotate(-180deg);
+}
+
+.symbols {
+  font-size: 70px;
+  font-weight: 500;
+  margin-left: -88%;
+}
